@@ -214,6 +214,7 @@ const Profile = () => {
               sx={{
                 background: "linear-gradient(135deg, #6a11cb 0%, #2575fc 100%)",
                 "&:hover": { opacity: 0.9 },
+                color: "white",
               }}
               onClick={() => {
                 logout();
